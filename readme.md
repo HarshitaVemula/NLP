@@ -7,5 +7,13 @@ A motion picture content rating system is an organization designated to classify
 The Motion Picture Association of America (MPAA) classifies movies into 5 categories.
 <img src="ratings.png" width="100%">
 
+The task is to classify movies into these five categories while exploring the various multiclass classification algorithms.
+
+# Evaluation
+The evaluation metric used is accuracy per class.
+
+# Models 
+
+
 
 
