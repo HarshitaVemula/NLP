@@ -13,6 +13,14 @@ The task is to classify movies into these five categories while exploring the va
 The evaluation metric used is accuracy per class.
 
 # Models 
+- One vs all
+- All pairs
+- Linear multiclass predictors
+
+# Methodology
+
+
+
 
 
 
