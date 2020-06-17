@@ -30,12 +30,11 @@ The classifiers used were:
 * Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
 
 ### Multiclass classification :
--SVC : accuracy = 0.57 and f1 score = 0.56
-
--Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
+* SVC : accuracy = 0.57 and f1 score = 0.56
+* Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
 
 ### All pairs :
--SVC : performed the worst with an ill-defined f1 score.
+* SVC : performed the worst with an ill-defined f1 score.
 
 # Musings
 
