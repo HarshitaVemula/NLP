@@ -52,7 +52,9 @@ For example:
 <img src="ex.png" width="30%">
 
 The probability masses for the above problem are 1:40%, 2-20%, 3-40%.
-Observe that for the above problem of discriminating between class 2 and the rest of the classes, the optimal classifier would be the all negative classifier. Therefore, the multiclass predictor constructed by One-versus-All might err on all the examples from class 2. In contrast, if we choose a multiclass classifier with hi(x) = ⟨wi,x⟩, where w<sub>1</sub> = (-1/√2,1/√2), w<sub>2</sub> = (0,1),and w<sub>3</sub> = (1/√2,1/√2) 􏰊,then the classifier defined by h(x) = argmax<sub>i</sub> h<sub>i</sub>(x) perfectly predicts all the examples.
+Observe that for the above problem of discriminating between class 2 and the rest of the classes, the optimal classifier would be the all negative classifier. Therefore, the multiclass predictor constructed by One-versus-All might err on all the examples from class 2. In contrast, if we choose a multiclass classifier with hi(x) = ⟨wi,x⟩, where w<sub>1</sub> = (-1/√2,1/√2), w<sub>2</sub> = (0,1),and w<sub>3</sub> = (1/√2,1/√2), then the classifier defined by h(x) = argmax<sub>i</sub> h<sub>i</sub>(x) perfectly predicts all the examples.
+
+
 
 
 
