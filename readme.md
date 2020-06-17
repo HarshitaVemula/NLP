@@ -30,12 +30,12 @@ The classifiers used were:
 
 -Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
 
-### Multiclass classification
+### Multiclass classification :
 -SVC : accuracy = 0.57 and f1 score = 0.56
 
 -Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
 
-### All pairs
+### All pairs :
 -SVC
 
 
@@ -50,6 +50,9 @@ Reduction methods such as the One-versus-All and All-Pairs are simple and easy t
 For example:
 
 <img src="ex.png" width="30%">
+
+The probability masses for the above problem are 1:40%, 2-20%, 3-40%.
+Observe that for the above problem of discriminating between class 2 and the rest of the classes, the optimal classifier would be the all negative classifier. Therefore, the multiclass predictor constructed by One-versus-All might err on all the examples from class 2. In contrast, if we choose a multiclass classifier with hi(x) = ⟨wi,x⟩, where w<sub>1</sub> =􏰉−1 , 1 􏰊,w =(0,1),andw =􏰉1 , 1 􏰊,thentheclassi- 1 √2√2 2 3 √2√2 fier defined by h(x) = argmaxi hi(x) perfectly predicts all the examples.
 
 
 
