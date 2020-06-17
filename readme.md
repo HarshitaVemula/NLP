@@ -12,11 +12,6 @@ The task is to classify movies into these five categories while exploring the va
 # Evaluation
 The evaluation metric used is accuracy per class and F1 score.
 
-# Models 
-- One vs all - SVC and Logistic Regression
-- All pairs
-- Linear multiclass predictors
-
 # Methodology
 - Data preprocessing: The Data collected from various repositories was cleaned by dropping reapeated instances and structured data frames were created. The text data was then cleaned by removing stopwords, stemming and lemmatizing. tfidf vectorizer was used to obtain the required covaraites(1 grams, 2 grams and 3 grams) from the text. The titles were also tokenized and were used as features.
 
