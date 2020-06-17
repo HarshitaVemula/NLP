@@ -7,7 +7,7 @@ A motion picture content rating system is an organization designated to classify
 The Motion Picture Association of America (MPAA) classifies movies into 5 categories.
 <img src="ratings.png" width="100%">
 
-The task is to classify movies into these five categories while exploring the various multiclass classification algorithms.
+The task is to classify movies into these five categories while exploring the various multiclass classification algorithms. I worked on this project while I was working as an RA in tme McCombs School of Business.
 
 # Evaluation
 The evaluation metric used is accuracy per class and F1 score.
@@ -27,13 +27,33 @@ One vs all, all pairs and multiclass predictors were considered. Theoretically m
 The classifiers used were:
 ### One vs all : 
 -SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
+
 -Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
 
 ### Multiclass classification
 -SVC : accuracy = 0.57 and f1 score = 0.56
+
 -Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
 
 ### All pairs
+-SVC
+
+
+
+
+# Musings
+
+### When will multiclass outperform all pairs and one vs all?
+
+Reduction methods such as the One-versus-All and All-Pairs are simple and easy to construct from existing algorithms, but their simplicity has a price. The binary learner is not aware of the fact that we are going to use its output hypotheses for constructing a multiclass predictor, and this might lead to suboptimal results.
+
+For example:
+<img src="ex.png" width="100%">
+
+
+
+
+
 
 
 
