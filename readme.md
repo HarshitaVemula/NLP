@@ -18,6 +18,25 @@ The evaluation metric used is accuracy per class and F1 score.
 - Linear multiclass predictors
 
 # Methodology
+- Data preprocessing: The Data collected from various repositories was cleaned by dropping reapeated instances and structured data frames were created. The text data was then cleaned by removing stopwords, stemming and lemmatizing. tfidf vectorizer was used to obtain the required covaraites(1 grams, 2 grams and 3 grams) from the text. The title was also tokenized and is used as features.
+
+- Models : 
+
+One vs all, all pairs and multiclass predictors were considered. Theoretically multiclass predictors should perform better than the other 2 kinds of classifiers. But this did not seem to be the case practically.
+
+The classifiers used were:
+-One vs all : 
+SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
+Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
+
+-Multiclass classification
+SVC : accuracy = 0.57 and f1 score = 0.56
+Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
+
+-All pairs
+
+
+
 
 
 
