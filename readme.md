@@ -25,15 +25,15 @@ The evaluation metric used is accuracy per class and F1 score.
 One vs all, all pairs and multiclass predictors were considered. Theoretically multiclass predictors should perform better than the other 2 kinds of classifiers. But this did not seem to be the case practically.
 
 The classifiers used were:
--One vs all : 
-SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
-Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
+### One vs all : 
+-SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
+-Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
 
--Multiclass classification
-SVC : accuracy = 0.57 and f1 score = 0.56
-Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
+### Multiclass classification
+-SVC : accuracy = 0.57 and f1 score = 0.56
+-Logisticregression with cv using lbfgs solver and balanced class weight : accuracy = 0.589 and f1 score = 0.578
 
--All pairs
+### All pairs
 
 
 
