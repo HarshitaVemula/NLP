@@ -48,7 +48,8 @@ The classifiers used were:
 Reduction methods such as the One-versus-All and All-Pairs are simple and easy to construct from existing algorithms, but their simplicity has a price. The binary learner is not aware of the fact that we are going to use its output hypotheses for constructing a multiclass predictor, and this might lead to suboptimal results.
 
 For example:
-<img src="ex.png" width="50%">
+
+<img src="ex.png" width="30%">
 
 
 
