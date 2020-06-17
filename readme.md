@@ -10,10 +10,10 @@ The Motion Picture Association of America (MPAA) classifies movies into 5 catego
 The task is to classify movies into these five categories while exploring the various multiclass classification algorithms.
 
 # Evaluation
-The evaluation metric used is accuracy per class.
+The evaluation metric used is accuracy per class and F1 score.
 
 # Models 
-- One vs all
+- One vs all - SVC and Logistic Regression
 - All pairs
 - Linear multiclass predictors
 
