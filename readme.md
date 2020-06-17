@@ -26,8 +26,8 @@ One vs all, all pairs and multiclass predictors were considered. Theoretically m
 
 The classifiers used were:
 ### One vs all : 
-*SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
-*Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
+* SVC : accuracy = 0.45 , f1 score (weighted) = 0.47
+* Logistic regression using liblinear solver with l2 penalty and balanced class weight : accuracy =.60 and f1 score = 0.605
 
 ### Multiclass classification :
 -SVC : accuracy = 0.57 and f1 score = 0.56
